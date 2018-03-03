@@ -4,7 +4,7 @@
   "description": "Simple vanillaJS material todo-list",
   "main": "./server/app.js",
   "scripts": {
-  	"start": "node server/app.js",
+    "start": "node server/app.js",
     "server": "nodemon --inspect server/app.js",
     "test": "standard",
     "test:fix": "standard --fix"
@@ -24,6 +24,7 @@
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "mongoose": "^4.7.6",
+    "npm": "^5.7.1",
     "socket.io": "^1.7.2"
   },
   "devDependencies": {
