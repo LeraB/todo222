@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Simple vanillaJS material todo-list",
   "main": "./server/app.js",
+  "engines": {
+    "npm": "5.6.x"
+  },
   "scripts": {
     "start": "node server/app.js",
     "server": "nodemon --inspect server/app.js",
